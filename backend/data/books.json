@@ -1,0 +1,144 @@
+{
+  "books": [
+    {
+      "title": "The Pragmatic Programmer",
+      "author": "Andrew Hunt & David Thomas",
+      "totalPages": 352,
+      "isbn": "9780135957059",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780135957059-L.jpg"
+    },
+    {
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "totalPages": 464,
+      "isbn": "9780132350884",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg"
+    },
+    {
+      "title": "Refactoring",
+      "author": "Martin Fowler",
+      "totalPages": 448,
+      "isbn": "9780201485677",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780201485677-L.jpg"
+    },
+    {
+      "title": "You Don’t Know JS Yet",
+      "author": "Kyle Simpson",
+      "totalPages": 278,
+      "isbn": "9781091210092",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9781091210092-L.jpg"
+    },
+    {
+      "title": "Design Patterns",
+      "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+      "totalPages": 395,
+      "isbn": "9780201633610",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780201633610-L.jpg"
+    },
+    {
+      "title": "Introduction to Algorithms",
+      "author": "Thomas H. Cormen",
+      "totalPages": 1312,
+      "isbn": "9780262033848",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780262033848-L.jpg"
+    },
+    {
+      "title": "Head First Design Patterns",
+      "author": "Eric Freeman, Elisabeth Robson",
+      "totalPages": 694,
+      "isbn": "9780596007126",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780596007126-L.jpg"
+    },
+    {
+      "title": "The Mythical Man-Month",
+      "author": "Frederick P. Brooks Jr.",
+      "totalPages": 322,
+      "isbn": "9780201835953",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780201835953-L.jpg"
+    },
+    {
+      "title": "Code Complete",
+      "author": "Steve McConnell",
+      "totalPages": 960,
+      "isbn": "9780735619678",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780735619678-L.jpg"
+    },
+    {
+      "title": "Working Effectively with Legacy Code",
+      "author": "Michael Feathers",
+      "totalPages": 456,
+      "isbn": "9780131177055",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780131177055-L.jpg"
+    },
+    {
+      "title": "Patterns of Enterprise Application Architecture",
+      "author": "Martin Fowler",
+      "totalPages": 560,
+      "isbn": "9780321127426",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780321127426-L.jpg"
+    },
+    {
+      "title": "Domain-Driven Design",
+      "author": "Eric Evans",
+      "totalPages": 560,
+      "isbn": "9780321125217",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780321125217-L.jpg"
+    },
+    {
+      "title": "Continuous Delivery",
+      "author": "Jez Humble, David Farley",
+      "totalPages": 512,
+      "isbn": "9780321601919",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780321601919-L.jpg"
+    },
+    {
+      "title": "Site Reliability Engineering",
+      "author": "Betsy Beyer, Chris Jones, Jennifer Petoff, Niall Richard Murphy",
+      "totalPages": 552,
+      "isbn": "9781491929124",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9781491929124-L.jpg"
+    },
+    {
+      "title": "The Clean Coder",
+      "author": "Robert C. Martin",
+      "totalPages": 256,
+      "isbn": "9780137081073",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780137081073-L.jpg"
+    },
+    {
+      "title": "JavaScript: The Good Parts",
+      "author": "Douglas Crockford",
+      "totalPages": 176,
+      "isbn": "9780596517748",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780596517748-L.jpg"
+    },
+    {
+      "title": "Eloquent JavaScript",
+      "author": "Marijn Haverbeke",
+      "totalPages": 472,
+      "isbn": "9781593279509",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9781593279509-L.jpg"
+    },
+    {
+      "title": "Effective Java",
+      "author": "Joshua Bloch",
+      "totalPages": 416,
+      "isbn": "9780134685991",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780134685991-L.jpg"
+    },
+    {
+      "title": "Programming Pearls",
+      "author": "Jon Bentley",
+      "totalPages": 256,
+      "isbn": "9780201657883",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780201657883-L.jpg"
+    },
+    {
+      "title": "Structure and Interpretation of Computer Programs",
+      "author": "Harold Abelson, Gerald Jay Sussman",
+      "totalPages": 657,
+      "isbn": "9780262510875",
+      "coverImage": "https://covers.openlibrary.org/b/isbn/9780262510875-L.jpg"
+    }
+  ]
+}
