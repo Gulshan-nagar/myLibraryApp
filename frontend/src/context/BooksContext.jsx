@@ -32,8 +32,9 @@ export default function BooksProvider({ children }) {
     setLoading(true);
     try {
       const { data } = await axios.get(MYBOOKS.base);
-      // server returns populated mybooks
-      setMyBooks(data.mybooks || []);
+      // Filter out invalid myBooks entries where bookId is null
+      const validMyBooks = (data.mybooks || []).filter((m) => m.bookId);
+      setMyBooks(validMyBooks);
     } catch (err) {
       console.error("fetchMyBooks", err);
     } finally {
@@ -45,7 +46,6 @@ export default function BooksProvider({ children }) {
     fetchBooks();
   }, []);
 
-  // whenever user changes, fetch mybooks
   useEffect(() => {
     fetchMyBooks();
   }, [user]);
@@ -63,7 +63,17 @@ export default function BooksProvider({ children }) {
   };
 
   return (
-    <BooksContext.Provider value={{ books, myBooks, loading, fetchBooks, fetchMyBooks, addMyBook, updateMyBook }}>
+    <BooksContext.Provider
+      value={{
+        books,
+        myBooks,
+        loading,
+        fetchBooks,
+        fetchMyBooks,
+        addMyBook,
+        updateMyBook,
+      }}
+    >
       {children}
     </BooksContext.Provider>
   );
