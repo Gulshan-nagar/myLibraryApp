@@ -16,11 +16,24 @@ connectDB();
 app.use(express.json());
 app.use(cookieParser());
 
-const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:5173";
+// List of allowed origins
+const allowedOrigins = [
+  "http://localhost:5173", // local dev
+  "https://mylibraryapp-1.onrender.com", // deployed frontend
+  // Add more frontend URLs if needed
+];
 
 app.use(cors({
-  origin: CLIENT_URL,
-  credentials: true,
+  origin: function(origin, callback) {
+    // allow requests with no origin (like mobile apps, curl)
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    } else {
+      return callback(new Error("Not allowed by CORS"));
+    }
+  },
+  credentials: true
 }));
 
 app.get("/", (req, res) => res.send("My Library API"));
